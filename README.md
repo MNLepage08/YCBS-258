@@ -15,7 +15,10 @@
   - [Underfitting:](https://youtu.be/aircAruvnKk) When it's not even able to classify the data it was trained on, let alone data it hasn't seen before. Increase the complexity of the model, Add more features to the input sample, Reduce dropout.
   - [Assignment 1](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb)
 
-2. Hyperparameters and Performance
+#### 2. Hyperparameters and Performance
+  - [How To Improve Deep Learning Performance](https://machinelearningmastery.com/improve-deep-learning-performance/)
+  - With data: Get more data, [Data augmentation](https://augmentor.readthedocs.io/en/master/), Rescale your data, Transform your data, Feature selection, Reframe your problem.
+
 3. Convolutional Neural Networks
 4. Reccurent Neural Networks
 5. Representation Learning, Autoencoders and GANs
