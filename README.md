@@ -9,6 +9,8 @@
   - [Activation Function: ](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)Received the sum of product (Inputs * Weights) and map onto a nonlinearity. The activate function give the output of the neuron.
   - [Backpropagation](https://youtu.be/Ilg3gGewQ5U) It is the method of fine-tuning the weights of a neural net based on the error rate obtained in the previous epoch (i.e., iteration). This method helps to calculate the gradient of a loss function with respects to all the weights in the network.
   - [Stochastic Gradient Descent: ](https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31)Before computing error we pass… Batch gradient descent / Mini-batch gradient descent / Stochastic gradient descent.
+  - [One-hot Encoding: ](https://youtu.be/v_4KWmkwmsU)Transform our categorical labels into vectors of 0 and 1. Every element will be a zero except for the element that corresponds to the actual category of the given input.
+  - [Train, Test & Validation Sets explained](https://youtu.be/Zi-0rlM4RDs)
   - [Assignment 1](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb)
 
 2. Hyperparameters and Performance
