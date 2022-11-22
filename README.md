@@ -11,6 +11,8 @@
   - [Stochastic Gradient Descent: ](https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31)Before computing error we pass… Batch gradient descent / Mini-batch gradient descent / Stochastic gradient descent.
   - [One-hot Encoding: ](https://youtu.be/v_4KWmkwmsU)Transform our categorical labels into vectors of 0 and 1. Every element will be a zero except for the element that corresponds to the actual category of the given input.
   - [Train, Test & Validation Sets explained](https://youtu.be/Zi-0rlM4RDs)
+  - [Overffiting ](https://youtu.be/DEMmkFC6IGM)occurs when our model becomes good at being able to classify or predict on data in the training set but is not as good at classifying data that it wasn't trained on. Unable to generalize well. Addding more data to the training set, Data augmentation, Reduce the complexity of the model, Dropout.
+  - [Underfitting:](https://youtu.be/aircAruvnKk) When it's not even able to classify the data it was trained on, let alone data it hasn't seen before. Increase the complexity of the model, Add more features to the input sample, Reduce dropout.
   - [Assignment 1](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb)
 
 2. Hyperparameters and Performance
