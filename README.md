@@ -22,7 +22,7 @@
   - With Algoritm Tuning: Diagnostics (overfitting/underfitting), Weight initialisation, Learning rate & scedulling ([cyclical learning rates with keras and DL](https://pyimagesearch.com/2019/07/29/cyclical-learning-rates-with-keras-and-deep-learning/#:~:text=learning%20rate%20range.-,What%20are%20cyclical%20learning%20rates%3F,you%20simply%20need%20a%20callback)), Activation function, Network topology, Batches & Epochs, Regularization (dropout, batch nomalization, Ridge & Lasso), Optimization & Loss, Early Stopping.
   - With Ensembles: Combine models, Combine views, Stacking.
   - How to choose Hyperparameters: Selecting by hand, [Grid Search](https://medium.com/fintechexplained/what-is-grid-search-c01fe886ef0a), [Random Search](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf), [Bayesian Optimization](https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f)
-  - [A Recipe for Training Networks](http://karpathy.github.io/2019/04/25/recipe/): Becaume one with data, Set up the end to end training / evaluation skeleton + get dump baseline, Overfit, Regularize, Tune, Squeeze out the juice.
+  - [A Recipe for Training Networks](http://karpathy.github.io/2019/04/25/recipe/): Become one with data, Set up the end to end training / evaluation skeleton + get dump baseline, Overfit, Regularize, Tune, Squeeze out the juice.
   - [Assignment 2](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M2_Marie-Noel%20Lepage.ipynb)
   
 
