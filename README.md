@@ -32,6 +32,7 @@
   - Pooling Layer: You don’t want small detail (reduce the risk of overfitting). Reduce dimmensianlity, Extract maximum of average region, Sliding window approach. Max Pooling returns the maximum value from the portion of the image covered by the Kernel. Average Pooling returns the average of all the values from the portion of the image covered by the Kernel. 
   - Strides: is the step size that take at every convolutional computation. (horizontal, vertical).
   - Classification – Fully Connected Layer (FC Layer): You try to combine your tensor in the way of your conventional ML need. Aggregate information from final feature maps. Generate final classification
+  - [Assignment 3](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb)
 
 
 
