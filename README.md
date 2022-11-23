@@ -34,9 +34,14 @@
   - Classification – Fully Connected Layer (FC Layer): You try to combine your tensor in the way of your conventional ML need. Aggregate information from final feature maps. Generate final classification
   - [Assignment 3](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb)
 
+#### 4. Reccurent Neural Networks
+  - [RNN: ](https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce)Sequence of data points that occur in successive order over some period of time. You want to predict the future. Sequence of the event connected to each other’s. Each value related to the lag version.
+  - 2 classes: Systematic: components have consistency or occurrence and can be described and modeled (this course). Non-Systematic: Components cannot be directly modeled.
+  - [Components for sequence modeling: ](https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/)Level, Trend, Seasonality, Noise (residual).
+  - Combining time series components: Additive model & Multiplicative model.
+  - Autocorrelation: Represents the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Measures the relationship between a variable’s current value and its past values. Identify seasonality and trend in time series data.
+  - [5 differents DL architecture for time series: ](https://towardsdatascience.com/time-series-forecasting-with-deep-learning-and-attention-mechanism-2d001fc871fc) RNNs, LSTM, GRU, Encoder-Decoder model, Attention mechanism.
 
-
-4. Reccurent Neural Networks
 5. Representation Learning, Autoencoders and GANs
 6. Natural Language Processing
 7. Reinforcement Learning
