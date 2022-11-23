@@ -25,8 +25,16 @@
   - [A Recipe for Training Networks](http://karpathy.github.io/2019/04/25/recipe/): Become one with data, Set up the end to end training / evaluation skeleton + get dump baseline, Overfit, Regularize, Tune, Squeeze out the juice.
   - [Assignment 2](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M2_Marie-Noel%20Lepage.ipynb)
   
+#### 3. Convolutional Neural Networks
+  - [CNN ](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) is a neural network that has one or more convolutional layers and are used mainly for image processing, classification, segmentation and also for other auto correlated data. The role of the CNN is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction.
+  - Convolution Layer – The kernel: Apply filters to extract features, Filters are composed of small kernels learned, One bias per filter, Apply activation function on every value of feature map.
+  - The objective of the Convolution Operation is to extract the high-level features such as edges, from the input image.  There are two types of results to the operation: Valid Padding: the convolved feature is reduced in dimensionality as compared to the input. Same Padding: the dimensionality is either increased or remains the same. 
+  - Pooling Layer: You don’t want small detail (reduce the risk of overfitting). Reduce dimmensianlity, Extract maximum of average region, Sliding window approach. Max Pooling returns the maximum value from the portion of the image covered by the Kernel. Average Pooling returns the average of all the values from the portion of the image covered by the Kernel. 
+  - Strides: is the step size that take at every convolutional computation. (horizontal, vertical).
+  - Classification – Fully Connected Layer (FC Layer): You try to combine your tensor in the way of your conventional ML need. Aggregate information from final feature maps. Generate final classification
 
-3. Convolutional Neural Networks
+
+
 4. Reccurent Neural Networks
 5. Representation Learning, Autoencoders and GANs
 6. Natural Language Processing
