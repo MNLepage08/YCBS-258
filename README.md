@@ -41,6 +41,7 @@
   - Combining time series components: Additive model & Multiplicative model.
   - Autocorrelation: Represents the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Measures the relationship between a variable’s current value and its past values. Identify seasonality and trend in time series data.
   - [5 differents DL architecture for time series: ](https://towardsdatascience.com/time-series-forecasting-with-deep-learning-and-attention-mechanism-2d001fc871fc) RNNs, LSTM, GRU, Encoder-Decoder model, Attention mechanism.
+  - [Assignment 4](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M4_Marie_Noel_Lepage_v2.ipynb)
 
 5. Representation Learning, Autoencoders and GANs
 6. Natural Language Processing
