@@ -55,7 +55,8 @@
   - [Variational autoencoders - VAE: ](https://www.jeremyjordan.me/variational-autoencoders/)provides a probabilistic manner for describing an observation in latent space. We’ll formulate our encoder to describe a probability distribution for each latent attribute. The main benefit is that we're capable of learning smooth latent state representations of the input data.
   - [GANs: ](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)Generator starts of generating noise. Discriminator tries to predict if an input is real or fake.
   - [LSTM (seq2seq): ](https://machinelearningmastery.com/lstm-autoencoders/): The length of the input sequence can vary.	The temporal ordering of the observations can make it challenging to extract features suitable for use as input to supervised learning models, often requiring deep expertise in the domain or in the field of signal processing.
-  - [Tied Weights: ](https://medium.com/@lmayrandprovencher/building-an-autoencoder-with-tied-weights-in-keras-c4a559c529a2)this is a form of parameter sharing, which reduces the number of parameters of the model. Advantages include increased training speed and reduced risk of overfitting. Common practice when building a symmetrical autoencoder.
+  - [Tied Weights: ](https://medium.com/@lmayrandprovencher/building-an-autoencoder-with-tied-weights-in-keras-c4a559c529a2)This is a form of parameter sharing, which reduces the number of parameters of the model. Advantages include increased training speed and reduced risk of overfitting. Common practice when building a symmetrical autoencoder.
+  - [Assignement 5](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M5_Marie-Noel%20Lepage.ipynb)
 
 
 6. Natural Language Processing
