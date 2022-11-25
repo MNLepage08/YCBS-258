@@ -13,6 +13,7 @@
   - [Train, Test & Validation Sets explained](https://youtu.be/Zi-0rlM4RDs)
   - [Overffiting ](https://youtu.be/DEMmkFC6IGM)occurs when our model becomes good at being able to classify or predict on data in the training set but is not as good at classifying data that it wasn't trained on. Unable to generalize well. Addding more data to the training set, Data augmentation, Reduce the complexity of the model, Dropout.
   - [Underfitting:](https://youtu.be/aircAruvnKk) When it's not even able to classify the data it was trained on, let alone data it hasn't seen before. Increase the complexity of the model, Add more features to the input sample, Reduce dropout.
+  - [Normalization & Standardization](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing)
   - [Assignment 1](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb)
 
 #### 2. Hyperparameters and Performance
@@ -43,7 +44,20 @@
   - [5 differents DL architecture for time series: ](https://towardsdatascience.com/time-series-forecasting-with-deep-learning-and-attention-mechanism-2d001fc871fc) RNNs, LSTM, GRU, Encoder-Decoder model, Attention mechanism.
   - [Assignment 4](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M4_Marie_Noel_Lepage_v2.ipynb)
 
-5. Representation Learning, Autoencoders and GANs
+#### 5. Representation Learning, Autoencoders and GANs
+  - [Autoencoders: ](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f)Work by compressing the input into latent-space representation (keep the best features) and then reconstructing the output from this representation.
+  - Used for Dimensionality reduction, image compression, image denoising, feature extraction, image generation (GANs), seq to seq prediction (LSTM), recommendation system, anomaly detection (outliers).
+  - Encoder: Compresses the input into a latent-space representation.
+  - Decoder: Aims to reconstruct the input from the latent space representation.
+  - Undercomplete: to constrain h to have smaller dimension that x. We force the autoencoder to learn the most salient features of the training data.
+  - Overcomplete: The dimension of the latent representation is greater than the input. Learn to copy the input to the output without learning anything useful about the data distribution.
+  - Types of autoencoder: Vanilla, Multilayer, Convolutional, [Regularized](https://keras.io/api/layers/regularizers/).
+  - [Variational autoencoders - VAE: ](https://www.jeremyjordan.me/variational-autoencoders/)provides a probabilistic manner for describing an observation in latent space. We’ll formulate our encoder to describe a probability distribution for each latent attribute. The main benefit is that we're capable of learning smooth latent state representations of the input data.
+  - [GANs: ](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)Generator starts of generating noise. Discriminator tries to predict if an input is real or fake.
+  - [LSTM (seq2seq): ](https://machinelearningmastery.com/lstm-autoencoders/): The length of the input sequence can vary.	The temporal ordering of the observations can make it challenging to extract features suitable for use as input to supervised learning models, often requiring deep expertise in the domain or in the field of signal processing.
+  - [Tied Weights: ](https://medium.com/@lmayrandprovencher/building-an-autoencoder-with-tied-weights-in-keras-c4a559c529a2)this is a form of parameter sharing, which reduces the number of parameters of the model. Advantages include increased training speed and reduced risk of overfitting. Common practice when building a symmetrical autoencoder.
+
+
 6. Natural Language Processing
 7. Reinforcement Learning
 8. Training and Deploying Models at Scale
