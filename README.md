@@ -59,7 +59,13 @@
   - [Assignement 5](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M5_Marie-Noel%20Lepage.ipynb)
 
 
-6. Natural Language Processing
+#### 6. Natural Language Processing
+  - Applications: Spell check, Autocomplete, Extracting information from website, Google search, Translation, Chat Bots, Question answering.
+  - Levels: Phonetics, Morphological, Syntatic, Semantic, Paragmatic, Discourse.
+  - Structural Linguistics: Sing, Language & Speech, Synchronony & Diachrony, Syntagm & Paradigm.
+  - Preprocessing step: Tools for crawling and scraping the web and parsinf out the data (Beautifulsoup, Selenium, Scrapy, Apache nutch). Clean your data (Spell checker, Grammar checker, Language detection, Cleaning data with regular expression, Noise removal). Lowercase, Stopword, Punctuation, Apostrophe, single characters, Stemming, Lemmatisation, Converting numbers.
+  - [TF-IDF: ](https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089)We generally compute a weight to each word wich signifies the importance of the word in the document and corpus.
+
 7. Reinforcement Learning
 8. Training and Deploying Models at Scale
 9. Structuring ML Projects
