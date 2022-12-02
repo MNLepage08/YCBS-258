@@ -57,10 +57,6 @@
   - [LSTM (seq2seq): ](https://machinelearningmastery.com/lstm-autoencoders/): The length of the input sequence can vary.	The temporal ordering of the observations can make it challenging to extract features suitable for use as input to supervised learning models, often requiring deep expertise in the domain or in the field of signal processing.
   - [Tied Weights: ](https://medium.com/@lmayrandprovencher/building-an-autoencoder-with-tied-weights-in-keras-c4a559c529a2)This is a form of parameter sharing, which reduces the number of parameters of the model. Advantages include increased training speed and reduced risk of overfitting. Common practice when building a symmetrical autoencoder.
   - [Assignement 5](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M5_Marie-Noel%20Lepage.ipynb)
-  - [Bag of Words (BoW): ](https://www.analyticsvidhya.com/blog/2021/08/a-friendly-guide-to-nlp-bag-of-words-with-python-example/) One hot encoding for all series of words in corpus (very large and no clue for dependency). Count how many times a word appears in a document.
-  - [Embledding: ](https://towardsdatascience.com/word-embeddings-for-nlp-5b72991e01d4) To have words similar context occupy close spatial positions. Word2Vec (every word converted to series of word based on the neighborhood and give the rank. The vector representation of word tokens. Each word has its own unique embedding.), GloVe (aggregated global word co-occurrence matrix), FastText (unknown words can be represented.
-  - [Genism: ](https://www.machinelearningplus.com/nlp/gensim-tutorial/)Library for topic modelling, document indexing and similarity retrieval with large corpora.
-
 
 #### 6. Natural Language Processing
   - Applications: Spell check, Autocomplete, Extracting information from website, Google search, Translation, Chat Bots, Question answering.
@@ -68,6 +64,9 @@
   - Structural Linguistics: Sing, Language & Speech, Synchronony & Diachrony, Syntagm & Paradigm.
   - Preprocessing step: Tools for crawling and scraping the web and parsinf out the data (Beautifulsoup, Selenium, Scrapy, Apache nutch). Clean your data (Spell checker, Grammar checker, Language detection, Cleaning data with regular expression, Noise removal). Lowercase, Stopword, Punctuation, Apostrophe, single characters, Stemming, Lemmatisation, Converting numbers.
   - [TF-IDF: ](https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089)We generally compute a weight to each word wich signifies the importance of the word in the document and corpus.
+  - [Bag of Words (BoW): ](https://www.analyticsvidhya.com/blog/2021/08/a-friendly-guide-to-nlp-bag-of-words-with-python-example/) One hot encoding for all series of words in corpus (very large and no clue for dependency). Count how many times a word appears in a document.
+  - [Embledding: ](https://towardsdatascience.com/word-embeddings-for-nlp-5b72991e01d4) To have words similar context occupy close spatial positions. Word2Vec (every word converted to series of word based on the neighborhood and give the rank. The vector representation of word tokens. Each word has its own unique embedding.), GloVe (aggregated global word co-occurrence matrix), FastText (unknown words can be represented.
+  - [Genism: ](https://www.machinelearningplus.com/nlp/gensim-tutorial/)Library for topic modelling, document indexing and similarity retrieval with large corpora.
 
 7. Reinforcement Learning
 8. Training and Deploying Models at Scale
