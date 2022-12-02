@@ -74,8 +74,10 @@
 Bi-directional deep LSTM network for producing vector representation. Get understanding of both the next and previous word in the sentence.
   - [HAN: ](https://medium.com/analytics-vidhya/hierarchical-attention-networks-d220318cf87e)Try to keep the connexion of the word and the sentence.
   - [BERT: ](https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/)Outperformed several models in NLP and provides top results in Question Answering, Natural Language Inference, and other frameworks. Text classification and categorization.
+  - [Assignment 6](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M6_Marie-Noel%20Lepage.ipynb)
 
 
 7. Reinforcement Learning
 8. Training and Deploying Models at Scale
 9. Structuring ML Projects
+10. Transformer
