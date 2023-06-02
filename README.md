@@ -1,5 +1,11 @@
-# YCBS-258
-## Practical Machine Learning
+# YCBS-258: Practical Machine Learning
+
+## Assignments
+1. [Create a small neural network that classifies the different types of winee: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb) Collect a set of wine data. Pre-process data (null values / train & test data). Creation of a neural network and use of a sparse categorical cross-entropy loss function. Accuracy: 94%.<p>
+2. [Hyperparameters on the neural network that classifies different types of clothing: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M2_Marie-Noel%20Lepage.ipynb) Collect Fashion-MNIST dataset. Preprocess the image with scale. Select 4 hyperparameters (learning_rates, batch_sizes, optimizers, initializers). Create lists of the various hyperparameter options. Take a random sample from these lists and train the neural network with a sparse categorical cross-entropy loss function. Display the various loss and accuracy curves using matplotlib.<p>
+3. [Build the AlexNet architecture with a functional API to classify the images: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb) Collect CIFAR-10 dataset. Preprocess the image with 0 to 1 scale and hot encoding for the labels. Build the CNN model by changing the kernel size and strides as the dataset is smaller than ImageNet. Train the model with categorical cross-entropy loss and test (accuracy: 81%).
+
+## Courses
 
 #### 1. Introduction to Deep Learning and Keras:
   - [Deep learning](https://youtu.be/aircAruvnKk) is a sub-field of machine learning that uses algorithms inspired by the structure and function of the brain's (neural networks). 
@@ -14,7 +20,6 @@
   - [Overffiting ](https://youtu.be/DEMmkFC6IGM)occurs when our model becomes good at being able to classify or predict on data in the training set but is not as good at classifying data that it wasn't trained on. Unable to generalize well. Addding more data to the training set, Data augmentation, Reduce the complexity of the model, Dropout.
   - [Underfitting:](https://youtu.be/aircAruvnKk) When it's not even able to classify the data it was trained on, let alone data it hasn't seen before. Increase the complexity of the model, Add more features to the input sample, Reduce dropout.
   - [Normalization & Standardization](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing)
-  - [Assignment 1](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb)
 
 #### 2. Hyperparameters and Performance
   - [How To Improve Deep Learning Performance](https://machinelearningmastery.com/improve-deep-learning-performance/)
