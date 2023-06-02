@@ -1,11 +1,17 @@
 # YCBS-258: Practical Machine Learning
 
-## Assignments
+## :rocket: Assignments
 1. [Create a small neural network that classifies the different types of winee: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb) Collect a set of wine data. Pre-process data (null values / train & test data). Creation of a neural network and use of a sparse categorical cross-entropy loss function. Accuracy: 94%.<p>
 2. [Hyperparameters on the neural network that classifies different types of clothing: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M2_Marie-Noel%20Lepage.ipynb) Collect Fashion-MNIST dataset. Preprocess the image with scale. Select 4 hyperparameters (learning_rates, batch_sizes, optimizers, initializers). Create lists of the various hyperparameter options. Take a random sample from these lists and train the neural network with a sparse categorical cross-entropy loss function. Display the various loss and accuracy curves using matplotlib.<p>
-3. [Build the AlexNet architecture with a functional API to classify the images: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb) Collect CIFAR-10 dataset. Preprocess the image with 0 to 1 scale and hot encoding for the labels. Build the CNN model by changing the kernel size and strides as the dataset is smaller than ImageNet. Train the model with categorical cross-entropy loss and test (accuracy: 81%).
+3. [Build the AlexNet architecture with a functional API to classify the images: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb) Collect CIFAR-10 dataset. Preprocess the image with 0 to 1 scale and hot encoding for the labels. Build the CNN model by changing the kernel size and strides as the dataset is smaller than ImageNet. Train the model with categorical cross-entropy loss and test (accuracy: 81%).<p>
+4. [Build 3 different types of RNN for predict the temporary phenomena on the photosphere of the sun: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M4_Marie_Noel_Lepage_v2.ipynb)Collect the sunspot csv dataset. Decompose the trend, seasonality, and residuals. Split the data for time series train, test, and validation. Preprocess with min max scaler and create a sliding window. With early stopping, use LSTM model (MSE loss: 0,58%), RNN model (MSE loss: 0,65%), GRU model (MSE loss: 0,60%).<p>
+5. [Build Autoencoder with convolutional Encoder and Stacked (tied weights): ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M5_Marie-Noel%20Lepage.ipynb)Collect MNIST dataset. Preprocess data (scale / train and test data). Build convolutional encoder and stacked architecture with binary cross-entropy loss. Use TensorBoard. Accuracy: 81% and 97% over 10 epochs.<p>
+6. [Classify the nationality of a person’s name using a character level with LSTM model: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M6_Marie-Noel%20Lepage.ipynb)Collect dataset from PyTorch tutorial. Split the data for train and test. Preprocess with a label encoder, a tokenizer per character level, and padding to sequences. Build LSTM model with sparce categorical cross-entropy (accuracy: 82%). Create a function to predict the name origin.<p>
+7. [Create Reinforcement Learning that can balance a pole in the CartPole game for 400 frames: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M7_Marie_Noel_Lepage.ipynb)Use OpenAI’s Gym toolkit to set up the cart and pole environment. Train the agent by performing actions in the environment. Take observations of actions with exploration (epsilon-greedy approach) in a Q-function for total reward. Use a policy to infer the best action a to take based on its state.<p>
+8. [Deploy NN model in the cloud with GCP: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M8_Marie_Noel_Lepage_v2.ipynb)Collect data from the banking institution’s direct marketing. Clean up the n/a values. Preprocess with hot encoding, and min max scaler. Split data for train and test. Build a NN model with categorical cross-entropy loss (accuracy: 90%). Create a storage bucket, authenticate, and deploy the model on GCP.<p>
+9. [Use facets for understand and analyze machine learning datasets: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M9_Marie_Noel_Lepage.ipynb)Collect data from the banking institution’s direct marketing. Use the Facets Dive interface to explore the relationship between the data points across the different features in the dataset. Use Facets Overview to understand the distribution of values (missing values, unbalanced distributions, etc.) across dataset features
 
-## Courses
+## :mortar_board: Courses
 
 #### 1. Introduction to Deep Learning and Keras:
   - [Deep learning](https://youtu.be/aircAruvnKk) is a sub-field of machine learning that uses algorithms inspired by the structure and function of the brain's (neural networks). 
@@ -29,7 +35,6 @@
   - With Ensembles: Combine models, Combine views, Stacking.
   - How to choose Hyperparameters: Selecting by hand, [Grid Search](https://medium.com/fintechexplained/what-is-grid-search-c01fe886ef0a), [Random Search](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf), [Bayesian Optimization](https://towardsdatascience.com/a-conceptual-explanation-of-bayesian-model-based-hyperparameter-optimization-for-machine-learning-b8172278050f)
   - [A Recipe for Training Networks](http://karpathy.github.io/2019/04/25/recipe/): Become one with data, Set up the end to end training / evaluation skeleton + get dump baseline, Overfit, Regularize, Tune, Squeeze out the juice.
-  - [Assignment 2](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M2_Marie-Noel%20Lepage.ipynb)
   
 #### 3. Convolutional Neural Networks
   - [CNN ](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) is a neural network that has one or more convolutional layers and are used mainly for image processing, classification, segmentation and also for other auto correlated data. The role of the CNN is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction.
@@ -38,7 +43,6 @@
   - Pooling Layer: You don’t want small detail (reduce the risk of overfitting). Reduce dimmensianlity, Extract maximum of average region, Sliding window approach. Max Pooling returns the maximum value from the portion of the image covered by the Kernel. Average Pooling returns the average of all the values from the portion of the image covered by the Kernel. 
   - Strides: is the step size that take at every convolutional computation. (horizontal, vertical).
   - Classification – Fully Connected Layer (FC Layer): You try to combine your tensor in the way of your conventional ML need. Aggregate information from final feature maps. Generate final classification
-  - [Assignment 3](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb)
 
 #### 4. Reccurent Neural Networks
   - [RNN: ](https://towardsdatascience.com/recurrent-neural-networks-d4642c9bc7ce)Sequence of data points that occur in successive order over some period of time. You want to predict the future. Sequence of the event connected to each other’s. Each value related to the lag version.
@@ -47,7 +51,6 @@
   - Combining time series components: Additive model & Multiplicative model.
   - Autocorrelation: Represents the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Measures the relationship between a variable’s current value and its past values. Identify seasonality and trend in time series data.
   - [5 differents DL architecture for time series: ](https://towardsdatascience.com/time-series-forecasting-with-deep-learning-and-attention-mechanism-2d001fc871fc) RNNs, LSTM, GRU, Encoder-Decoder model, Attention mechanism.
-  - [Assignment 4](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M4_Marie_Noel_Lepage_v2.ipynb)
 
 #### 5. Representation Learning, Autoencoders and GANs
   - [Autoencoders: ](https://towardsdatascience.com/deep-inside-autoencoders-7e41f319999f)Work by compressing the input into latent-space representation (keep the best features) and then reconstructing the output from this representation.
@@ -61,7 +64,6 @@
   - [GANs: ](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)Generator starts of generating noise. Discriminator tries to predict if an input is real or fake.
   - [LSTM (seq2seq): ](https://machinelearningmastery.com/lstm-autoencoders/): The length of the input sequence can vary.	The temporal ordering of the observations can make it challenging to extract features suitable for use as input to supervised learning models, often requiring deep expertise in the domain or in the field of signal processing.
   - [Tied Weights: ](https://medium.com/@lmayrandprovencher/building-an-autoencoder-with-tied-weights-in-keras-c4a559c529a2)This is a form of parameter sharing, which reduces the number of parameters of the model. Advantages include increased training speed and reduced risk of overfitting. Common practice when building a symmetrical autoencoder.
-  - [Assignement 5](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M5_Marie-Noel%20Lepage.ipynb)
 
 #### 6. Natural Language Processing
   - Applications: Spell check, Autocomplete, Extracting information from website, Google search, Translation, Chat Bots, Question answering.
@@ -79,7 +81,6 @@
 Bi-directional deep LSTM network for producing vector representation. Get understanding of both the next and previous word in the sentence.
   - [HAN: ](https://medium.com/analytics-vidhya/hierarchical-attention-networks-d220318cf87e)Try to keep the connexion of the word and the sentence.
   - [BERT: ](https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/)Outperformed several models in NLP and provides top results in Question Answering, Natural Language Inference, and other frameworks. Text classification and categorization.
-  - [Assignment 6](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M6_Marie-Noel%20Lepage.ipynb)
 
 
 7. Reinforcement Learning
