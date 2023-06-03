@@ -1,18 +1,45 @@
 # YCBS-258: Practical Machine Learning
 
+
 ## :rocket: Assignments
+
 1. [Create a small neural network that classifies the different types of winee: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M1_Marie-Noel%20Lepage.ipynb) Collect a set of wine data. Pre-process data (null values / train & test data). Creation of a neural network and use of a sparse categorical cross-entropy loss function. Accuracy: 94%.<p>
+  
 2. [Hyperparameters on the neural network that classifies different types of clothing: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M2_Marie-Noel%20Lepage.ipynb) Collect Fashion-MNIST dataset. Preprocess the image with scale. Select 4 hyperparameters (learning_rates, batch_sizes, optimizers, initializers). Create lists of the various hyperparameter options. Take a random sample from these lists and train the neural network with a sparse categorical cross-entropy loss function. Display the various loss and accuracy curves using matplotlib.<p>
+  
 3. [Build the AlexNet architecture with a functional API to classify the images: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M3_Marie_Noel_Lepage.ipynb) Collect CIFAR-10 dataset. Preprocess the image with 0 to 1 scale and hot encoding for the labels. Build the CNN model by changing the kernel size and strides as the dataset is smaller than ImageNet. Train the model with categorical cross-entropy loss and test (accuracy: 81%).<p>
+  
 4. [Build 3 different types of RNN for predict the temporary phenomena on the photosphere of the sun: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M4_Marie_Noel_Lepage_v2.ipynb)Collect the sunspot csv dataset. Decompose the trend, seasonality, and residuals. Split the data for time series train, test, and validation. Preprocess with min max scaler and create a sliding window. With early stopping, use LSTM model (MSE loss: 0,58%), RNN model (MSE loss: 0,65%), GRU model (MSE loss: 0,60%).<p>
+  
 5. [Build Autoencoder with convolutional Encoder and Stacked (tied weights): ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M5_Marie-Noel%20Lepage.ipynb)Collect MNIST dataset. Preprocess data (scale / train and test data). Build convolutional encoder and stacked architecture with binary cross-entropy loss. Use TensorBoard. Accuracy: 81% and 97% over 10 epochs.<p>
+  
 6. [Classify the nationality of a person’s name using a character level with LSTM model: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M6_Marie-Noel%20Lepage.ipynb)Collect dataset from PyTorch tutorial. Split the data for train and test. Preprocess with a label encoder, a tokenizer per character level, and padding to sequences. Build LSTM model with sparce categorical cross-entropy (accuracy: 82%). Create a function to predict the name origin.<p>
+  
 7. [Create Reinforcement Learning that can balance a pole in the CartPole game for 400 frames: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M7_Marie_Noel_Lepage.ipynb)Use OpenAI’s Gym toolkit to set up the cart and pole environment. Train the agent by performing actions in the environment. Take observations of actions with exploration (epsilon-greedy approach) in a Q-function for total reward. Use a policy to infer the best action a to take based on its state.<p>
+  
 8. [Deploy NN model in the cloud with GCP: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M8_Marie_Noel_Lepage_v2.ipynb)Collect data from the banking institution’s direct marketing. Clean up the n/a values. Preprocess with hot encoding, and min max scaler. Split data for train and test. Build a NN model with categorical cross-entropy loss (accuracy: 90%). Create a storage bucket, authenticate, and deploy the model on GCP.<p>
+  
 9. [Use facets for understand and analyze machine learning datasets: ](https://github.com/MNLepage08/YCBS-258/blob/main/Homework_M9_Marie_Noel_Lepage.ipynb)Collect data from the banking institution’s direct marketing. Use the Facets Dive interface to explore the relationship between the data points across the different features in the dataset. Use Facets Overview to understand the distribution of values (missing values, unbalanced distributions, etc.) across dataset features
 
+  
 ## :mortar_board: Courses
 
+| # | Sessions |
+| --- | --- |
+| 1 | Intro to Deep Learning and Keras |
+| 2 | Hyperparameters and Performance |  
+| 3 | Convolutional Neural Networks |
+| 4 | Recurrent Neural Networks |
+| 5 | Representation Learning, Autoencoders and GANs |
+| 6 | Natural Language Processing |
+| 7 | Reinforcement Learning |
+| 8 | Training and Deploying Models at Scale |
+| 9 | Structuring ML Projects |
+| 10 | Final Exam |
+
+  
+## :pencil2: Notes
+  
 #### 1. Introduction to Deep Learning and Keras:
   - [Deep learning](https://youtu.be/aircAruvnKk) is a sub-field of machine learning that uses algorithms inspired by the structure and function of the brain's (neural networks). 
   - [Perceptron](https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53) is a single layer neural network. Is useful for classifying data sets that are linearly separable (linear binary classifiers). 
